@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
+    <title>Clone Netflix</title>
+</head>
+<body>
+
+    <!--cabeçalho-->
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#" >Incio</a>
+                <a href="#" >Séries</a>
+                <a href="#" >Filmes</a>
+                <a href="#" >Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--exibição de filme em destaque-->
+    <main>
+        <div class="filmeprincipal">
+            <div class="container">
+                <h3 class="titulo">HALO</h3>
+                <p class="descricao">Uma épica batalha acontece no durante o século XXVI entre a raça humana e uma espécie alienígena conhecida como Covenant.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <!--item da linha abaixo e de repositorio de icones-->
+                        <i class="fa-solid fa-circle-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <!--item da linha abaixo e de repositorio de icones-->
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Carrosel de filmes-->
+    <div class="carrosel-filmes">
+        <div class="owl-carousel" owl-theme>
+            <div class="item">
+                <img src="image/carouselnathandrake.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/caroselcavaleirolua.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/caroselgooddoc.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carousel 2.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carousel1.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carousel3.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carousel4.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carousel5.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carousel6.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carouselallofus.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carouselmiranha.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carouselmiranha2.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carouselsonic.jpg" class="box-filme">
+            </div>
+            <div class="item">
+                <img src="image/carouselsupernatural.jpg" class="box-filme">
+            </div>
+        </div>
+    </div>
+    
+    <!--script de repositótio de icones-->
+    <script src="https://kit.fontawesome.com/5e47e5bde5.js" crossorigin="anonymous"></script>
+    
+    <!--Scripts de owl carousel. Necessário chamar os js já feitos primeiro, e depois o setup, necessariamente nesta ordem-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
